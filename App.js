@@ -31,13 +31,13 @@ function App() {
         <input
           className="app__input"
           type="text"
-          placeholder="enter ingridient"
+          placeholder="Enter ingridient"
           autoComplete="Off"
           value={query}
           onChange={(e) => setquery(e.target.value)}
         />
         <input className="app__submit" type="submit" value="Search" />
-        <select className="app_healthLabels">
+        {/* <select className="app_healthLabels">
           <option onClick={()=>sethealthLabel("vegan")}>vegan</option>
           <option onClick={()=>sethealthLabel("vegetarian")}>vegetarian</option>
           <option onClick={()=>sethealthLabel("paleo")}>Paleo</option>
@@ -46,7 +46,7 @@ function App() {
           <option onClick={()=>sethealthLabel("Kidney-Friendly")}>Kidney-Friendly</option>
           <option onClick={()=>sethealthLabel("low-fat")}>low-fat</option>
           <option onClick={()=>sethealthLabel("low-sugar")}>low-sugar</option>
-        </select>
+        </select> */}
       </form>
        
        <div className="app__recipes">

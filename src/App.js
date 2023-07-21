@@ -37,7 +37,7 @@ function App() {
           onChange={(e) => setquery(e.target.value)}
         />
         <input className="app__submit" type="submit" value="Search" />
-        <select className="app_healthLabels">
+        {/* <select className="app_healthLabels">
           <option onClick={()=>sethealthLabel("Vegan")}>Vegan</option>
           <option onClick={()=>sethealthLabel("Vegetarian")}>Vegetarian</option>
           <option onClick={()=>sethealthLabel("Paleo")}>Paleo</option>
@@ -46,7 +46,7 @@ function App() {
           <option onClick={()=>sethealthLabel("Kidney-Friendly")}>Kidney-Friendly</option>
           <option onClick={()=>sethealthLabel("Low-fat")}>Low-fat</option>
           <option onClick={()=>sethealthLabel("Low-sugar")}>Low-sugar</option>
-        </select>
+        </select> */}
       </form>
        
        <div className="app__recipes">
